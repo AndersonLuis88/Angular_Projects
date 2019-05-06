@@ -18,6 +18,7 @@ import { style, trigger, state, } from '@angular/animations';
 })
 export class BannerComponent implements OnInit {
 
+  public estado: string =  'escondido'
   constructor() { }
 
   ngOnInit() {
